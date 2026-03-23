@@ -96,6 +96,17 @@ int main(){
     printf("PIB per Capita: %d\n",pib_per_capita > pib_per_capita2);
     printf("Super poder: %d\n",super_poder > super_poder2);
 
+    printf("\nComparação de cartas (Atributo: População):\n");
+    printf("Carta 1 - %s: %lu\n", nome,populacao);
+    printf("Carta 1 - %s: %lu\n", nome2,populacao2);
+
+    if (populacao > populacao2){
+        printf("Reslutado: Carta 1 %s venceu", nome);
+    } else {
+        printf("Resultado: Carta 2 %s venceu", nome2);
+    }
+    
+
     return 0;
 
 }
